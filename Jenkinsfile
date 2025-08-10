@@ -56,7 +56,7 @@ pipeline {
                                     nexusArtifactUploader(
                                         nexusVersion: 'nexus3',
                                         protocol: 'http',
-                                        nexusUrl: 'http://<nexus-host>:8081',
+                                        nexusUrl: 'http://172.31.43.168:8081',
                                         groupId: 'com.example',
                                         version: "${env.GIT_COMMIT}",
                                         repository: 'maven-releases',
@@ -71,7 +71,7 @@ pipeline {
                                     nexusArtifactUploader(
                                         nexusVersion: 'nexus3',
                                         protocol: 'http',
-                                        nexusUrl: 'http://<nexus-host>:8081',
+                                        nexusUrl: 'http://172.31.43.168:8081',
                                         groupId: 'com.example',
                                         version: "${env.GIT_COMMIT}",
                                         repository: 'binary-releases',
@@ -85,7 +85,7 @@ pipeline {
                                     nexusArtifactUploader(
                                         nexusVersion: 'nexus3',
                                         protocol: 'http',
-                                        nexusUrl: 'http://<nexus-host>:8081',
+                                        nexusUrl: 'http://172.31.43.168:8081',
                                         groupId: 'com.example',
                                         version: "${env.GIT_COMMIT}",
                                         repository: 'maven-releases',
@@ -99,7 +99,7 @@ pipeline {
                                     nexusArtifactUploader(
                                         nexusVersion: 'nexus3',
                                         protocol: 'http',
-                                        nexusUrl: 'http://<nexus-host>:8081',
+                                        nexusUrl: 'http://172.31.43.168:8081',
                                         groupId: 'com.example',
                                         version: "${env.GIT_COMMIT}",
                                         repository: 'npm-releases',
@@ -113,7 +113,7 @@ pipeline {
                                     nexusArtifactUploader(
                                         nexusVersion: 'nexus3',
                                         protocol: 'http',
-                                        nexusUrl: 'http://<nexus-host>:8081',
+                                        nexusUrl: 'http://172.31.43.168:8081',
                                         groupId: 'com.example',
                                         version: "${env.GIT_COMMIT}",
                                         repository: 'maven-releases',
